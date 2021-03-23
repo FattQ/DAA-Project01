@@ -2,7 +2,8 @@ from flask import Flask,request,Response
 from botbuilder.core import BotFrameworkAdapter,BotFrameworkAdapterSettings,TurnContext,ConversationState,MemoryStorage
 from botbuilder.schema import Activity
 import asyncio
-from hero_card import SampleAnimationCard
+##from hero_card import SampleAnimationCard
+from pic_button import SampleAnimationCard
 
 
 app = Flask(__name__)
